@@ -1,0 +1,43 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 75px;
+
+    &__info {
+        padding: 0 25px;
+        align-content: center;
+        height: auto;
+        width: 100%;
+
+        &-label {
+            font-size: 24px;
+            font-weight: 700;
+            color: #FF7D29;
+        }
+
+        &-summary {
+            font-size: 18px;
+            font-style: italic;
+        }
+    }
+
+     &__user-image-container {
+        align-content: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .home {
+        flex-direction: column-reverse;
+
+        &__info {
+            text-align: center;
+            padding: 0;
+        }
+
+        &__user-image-container {
+            margin-bottom: 30px;
+            align-self: center;
+        }
+    }
+}
