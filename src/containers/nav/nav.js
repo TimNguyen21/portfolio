@@ -1,7 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import './Nav.scss';
 
-function Nav () {
+function Nav() {
 
     return (
         <div className={'nav'}>

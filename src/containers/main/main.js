@@ -1,7 +1,7 @@
 import './Main.scss';
 import userImage from '../../images/portfolio.png';
 
-function Main () {
+function Main() {
 
     return (
         <section className={'main'}>

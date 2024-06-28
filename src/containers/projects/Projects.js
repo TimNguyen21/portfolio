@@ -2,7 +2,7 @@ import './Projects.scss';
 import ProjectCard from '../../components/project-card/ProjectCard';
 import projectData from '../../data/ProjectData';
 
-function Projects () {
+function Projects() {
 
     function renderProjectCards() {
         const sortedProjectDataByNewest = projectData.sort((a, b) => b.id - a.id);
