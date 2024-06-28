@@ -13,6 +13,7 @@ function App() {
         <Nav />
       </header>
       <Routes>
+        <Route path="/" element={<Main />} />
         <Route index path="about" element={<Main />} />
         <Route path="projects" element={<Projects />} />
         <Route path="contact" element={<Contact />} />

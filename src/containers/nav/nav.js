@@ -5,7 +5,7 @@ function Nav() {
 
     return (
         <div className={'nav'}>
-            <Link to='/'>About</Link>
+            <Link to='/about'>About</Link>
             <Link to='/projects'>Projects</Link>
             <Link to='/contact'>Contacts</Link>
 
