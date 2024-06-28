@@ -4,9 +4,10 @@
     font-weight: 700;
     width: 400px;
     font-size: 17px;
-    color: #FF7D29;
 
-    &__link {
+    a {
+        color: #FF7D29;
+        text-decoration: none;
         cursor: pointer;
     }
 }
