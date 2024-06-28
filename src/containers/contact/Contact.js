@@ -1,3 +1,4 @@
+import RoundImage from '../../components/round-image/RoundImage';
 import plantImage from '../../images/plant.png';
 import './Contact.scss';
 
@@ -6,7 +7,7 @@ function Contact() {
     return (
         <div className={'contact'}>
             <div className={'contact__image-container'}>
-                <img src={plantImage} />
+                <RoundImage imageSrc={plantImage} altName={'plant'} />
             </div>
             <div className={'contact__info-container'}>
                 <div className={'contact__info'}>

@@ -21,16 +21,9 @@
         }
     }
 
-     &__user-image {
-        width: 300px;
-        height: 300px;
-        border: 2px dashed #FF7D29;
-        border-radius: 50%;
-
-        &-container {
-            align-content: center;
-        }
-     }
+     &__user-image-container {
+        align-content: center;
+    }
 }
 
 @media only screen and (max-width: 900px) {

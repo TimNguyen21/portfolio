@@ -1,5 +1,6 @@
-import './Main.scss';
+import RoundImage from '../../components/round-image/RoundImage';
 import userImage from '../../images/portfolio.png';
+import './Main.scss';
 
 function Main() {
 
@@ -17,7 +18,7 @@ function Main() {
                 </span>
             </div>
             <div className={'main__user-image-container'}>
-                <img className={'main__user-image'} src={userImage} alt={'user'}/>
+                <RoundImage imageSrc={userImage} altName={'user'}/>
             </div>
         </section>
     )

@@ -19,15 +19,6 @@
         font-weight: 700;
     }
 
-    &__image-container {
-        img {
-            width: 300px;
-            height: 300px;
-            border: 2px dashed #FF7D29;
-            border-radius: 50%;
-        }
-    }
-
     &__info {
         display: flex;
         flex-direction: column;
