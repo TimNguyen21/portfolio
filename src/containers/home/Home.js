@@ -7,7 +7,7 @@ function Main() {
     return (
         <section className={'home'}>
             <div className={'home__info'}>
-                <label className={'main__info-label'}>Hello, I'm Tim Quoc Nguyen</label>
+                <label className={'home__info-label'}>Hello, I'm Tim Quoc Nguyen</label>
                 <br></br>
                 <br></br>
                 <br></br>
