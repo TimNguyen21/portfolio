@@ -5,8 +5,12 @@ import projectData from '../../data/ProjectData';
 function Projects () {
 
     function renderProjectCards() {
-        return projectData.map(project => {
-            return <ProjectCard name={project.name}
+        const sortedProjectDataByNewest = projectData.sort((a, b) => b.id - a.id);
+        
+        return sortedProjectDataByNewest.map(project => {
+            return <ProjectCard id={project.id}
+                                key={project.id}
+                                name={project.name}
                                 screenshotImage={project.screenshotImage}
                                 pageLink={project.pageLink}
                                 gitHubLink={project.gitHubLink}/>
