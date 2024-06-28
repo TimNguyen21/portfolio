@@ -16,11 +16,11 @@ function Contact() {
                 </div>
                 <div className={'contact__info'}>
                     <label>GitHub:</label>
-                    <span><a href='https://github.com/TimNguyen21' target='_blank'>GitHub</a></span>
+                    <span><a href='https://github.com/TimNguyen21' target='_blank' rel="noreferrer">GitHub</a></span>
                 </div>
                 <div className={'contact__info'}>
                     <label>LinkedIn:</label>
-                    <span><a href='https://www.linkedin.com/in/timnguyen21/' target='_blank'>LinkedIn</a></span>
+                    <span><a href='https://www.linkedin.com/in/timnguyen21/' target='_blank' rel="noreferrer">LinkedIn</a></span>
                 </div>
             </div>
         </div>

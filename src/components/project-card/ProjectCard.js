@@ -9,10 +9,10 @@ function ProjectCard (props) {
             <div className={'project-card__screenshot'}><img src={screenshotImage} alt={name}/></div>
             <div className={'project-card__page-links'}>
                 <div className={'project-card__page-link'}>
-                    <span>Webpage Link: </span><a href={pageLink} target='_blank'>{name}</a>
+                    <span>Webpage Link: </span><a href={pageLink} target='_blank' rel="noreferrer">{name}</a>
                 </div>
                 <div className={'project-card__page-link'}>
-                    <span>GitHub Link: </span><a href={gitHubLink} target='_blank'>GitHub Repo</a>
+                    <span>GitHub Link: </span><a href={gitHubLink} target='_blank' rel="noreferrer">GitHub Repo</a>
                 </div>
             </div>
             
