@@ -1,4 +1,4 @@
-import { Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Main from './containers/main/Main';
 import Nav from './containers/nav/Nav';
 import Projects from './containers/projects/Projects';
