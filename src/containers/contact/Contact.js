@@ -1,6 +1,6 @@
 import './Contact.scss';
 
-function Contact () {
+function Contact() {
 
     return (
         <div className={'contact'}>
