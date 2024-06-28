@@ -1,4 +1,4 @@
-import './main.scss';
+import './Main.scss';
 import userImage from '../../images/portfolio.png';
 
 function Main () {
@@ -17,7 +17,7 @@ function Main () {
                 </span>
             </div>
             <div className={'main__user-image-container'}>
-                <img className={'main__user-image'} src={userImage} alt={'user image'}/>
+                <img className={'main__user-image'} src={userImage} alt={'user'}/>
             </div>
         </section>
     )
