@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-import Main from './containers/main/Main';
-import Nav from './containers/nav/Nav';
-import Projects from './containers/projects/Projects';
-import Contact from './containers/contact/Contact';
+import Main from './containers/main/Main.js';
+import Nav from './containers/nav/Nav.js';
+import Projects from './containers/projects/Projects.js';
+import Contact from './containers/contact/Contact.js';
 
 import './App.scss';
 
