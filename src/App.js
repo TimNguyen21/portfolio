@@ -1,6 +1,6 @@
 // import { Routes, Route } from "react-router-dom";
 // import Main from './containers/main/Main';
-import Nav from './containers/nav/Nav';
+// import Nav from './containers/nav/Nav';
 // import Projects from './containers/projects/Projects';
 // import Contact from './containers/contact/Contact';
 
@@ -10,7 +10,8 @@ function App() {
   return (
     <div className="App">
       <header>
-        <Nav />
+        {/* <Nav /> */}
+        hello world
       </header>
       {/* <Routes>
         <Route path="/" element={<Main />} />
