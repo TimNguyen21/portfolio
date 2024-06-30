@@ -12,6 +12,7 @@ function Projects() {
                                 key={project.id}
                                 name={project.name}
                                 screenshotImage={project.screenshotImage}
+                                techStacks={project.techStacks}
                                 pageLink={project.pageLink}
                                 gitHubLink={project.gitHubLink}/>
         });
