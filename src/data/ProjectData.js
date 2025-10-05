@@ -1,6 +1,7 @@
 import checkboxSelectScreenshot from '../images/checkbox-select.png';
 import numberGuessScreenshot from '../images/number-guesser.png';
 import numberFactsScreenshot from '../images/number-fact.png';
+import loadEntryConfirmationScreenshot from '../images/load-entry-confirmation.png';
 
 const projectData = [
     {id: 1,
@@ -23,7 +24,14 @@ const projectData = [
      techStacks: 'React.js, Redux, API, Javascript, HTML, SCSS/CSS',
      pageLink: '', 
      gitHubLink: 'https://github.com/TimNguyen21/number-facts'
-    }
+    },
+    {id: 4,
+     name: 'Central Services - Autoclave',
+     screenshotImage: loadEntryConfirmationScreenshot,
+     techStacks: 'React.js, Redux, Javascript, HTML, SCSS/CSS',
+     pageLink: 'https://cs-autoclave.netlify.app/cs/autoclave/',
+     gitHubLink: 'https://github.com/TimNguyen21/cs-autoclave'
+    },
 ];
 
 export default projectData;
